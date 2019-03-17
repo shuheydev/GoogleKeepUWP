@@ -14,7 +14,7 @@
     <Resource Language="x-generate" />
   </Resources>
   <Applications>
-    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="WebserviceUwpWrapperTemplate.App">
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="GoogleKeepUWP">
       <uap:VisualElements DisplayName="Google Keep UWP" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" BackgroundColor="transparent" Description="Google KeepをWeb Viewで表示させるだけのガワネイティブです。">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png" ShortName="Google Keep UWP">
           <uap:ShowNameOnTiles>

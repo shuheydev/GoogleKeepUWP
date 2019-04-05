@@ -6,6 +6,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 using GoogleKeepUWP;
+using Windows.UI.Core;
 
 namespace GoogleKeepUWP
 {
@@ -86,6 +87,8 @@ namespace GoogleKeepUWP
                 //マウスホバー時のタイトルバーに付随の最大・最小化ボタン、閉じるボタンの文字色、背景色の指定
                 titleBar.ButtonHoverForegroundColor = Windows.UI.Color.FromArgb(0xff, 0x33, 0x33, 0x33);
                 titleBar.ButtonHoverBackgroundColor = Windows.UI.Color.FromArgb(0xff, 0xdd, 0xaf, 0x27);
+
+                SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
             }
         }
 
